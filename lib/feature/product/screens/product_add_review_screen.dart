@@ -1,8 +1,10 @@
-import 'package:crafty_bay/core/widgets/show_snack_Bar.dart';
-import 'package:crafty_bay/feature/product/controller/add_review_controller.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:get/get.dart';
+
+import '../../../core/widgets/show_snack_Bar.dart';
+import '../controller/add_review_controller.dart';
 
 class ProductAddReviewScreen extends StatefulWidget {
   const ProductAddReviewScreen({super.key, required this.id});

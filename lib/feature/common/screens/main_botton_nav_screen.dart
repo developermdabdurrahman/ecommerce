@@ -1,18 +1,20 @@
-import 'package:crafty_bay/feature/auth/ui/controller/auth_controller.dart';
-import 'package:crafty_bay/feature/auth/ui/screens/sign_in_screen.dart';
-import 'package:crafty_bay/feature/card/ui/screens/card_screen.dart';
-import 'package:crafty_bay/feature/caregory/screens/category_list_screen.dart';
-import 'package:crafty_bay/feature/common/controller/category_controller.dart';
-import 'package:crafty_bay/feature/common/controller/home_slider_controller.dart';
-import 'package:crafty_bay/feature/common/controller/main_bottom_nav_index_controller.dart';
-import 'package:crafty_bay/core/extensions/app_localization_extension.dart';
-import 'package:crafty_bay/feature/common/controller/new_product_list_controller.dart';
-import 'package:crafty_bay/feature/common/controller/popular_product_list_controller.dart';
-import 'package:crafty_bay/feature/common/controller/special_product_list_controller.dart';
-import 'package:crafty_bay/feature/home/screens/home_screen.dart';
-import 'package:crafty_bay/feature/wishlist/ui/screens/wish_list_screen.dart';
+
+import 'package:ecommerce/core/extensions/app_localization_extension.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import '../../auth/ui/controller/auth_controller.dart';
+import '../../auth/ui/screens/sign_in_screen.dart';
+import '../../card/ui/screens/card_screen.dart';
+import '../../caregory/screens/category_list_screen.dart';
+import '../../home/screens/home_screen.dart';
+import '../../wishlist/ui/screens/wish_list_screen.dart';
+import '../controller/category_controller.dart';
+import '../controller/home_slider_controller.dart';
+import '../controller/main_bottom_nav_index_controller.dart';
+import '../controller/new_product_list_controller.dart';
+import '../controller/popular_product_list_controller.dart';
+import '../controller/special_product_list_controller.dart';
 
 class MainBottomNavScreen extends StatefulWidget {
   const MainBottomNavScreen({super.key});

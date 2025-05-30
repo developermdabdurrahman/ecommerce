@@ -1,7 +1,9 @@
-import 'package:crafty_bay/app/app_urls.dart';
-import 'package:crafty_bay/core/network_caller/network_caller.dart';
-import 'package:crafty_bay/feature/product/data/review_model.dart';
+
 import 'package:get/get.dart';
+
+import '../../../app/app_urls.dart';
+import '../../../core/network_caller/network_caller.dart';
+import '../data/review_model.dart';
 
 class ReviewListController extends GetxController {
   final int _perPageDataCount = 30;

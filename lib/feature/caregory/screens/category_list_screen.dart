@@ -1,8 +1,9 @@
-import 'package:crafty_bay/core/extensions/app_localization_extension.dart';
-import 'package:crafty_bay/feature/common/controller/category_controller.dart';
-import 'package:crafty_bay/feature/common/controller/main_bottom_nav_index_controller.dart';
-import 'package:crafty_bay/feature/common/model/category_model.dart';
-import 'package:crafty_bay/feature/common/widgets/category_item.dart';
+
+import 'package:ecommerce/core/extensions/app_localization_extension.dart';
+import 'package:ecommerce/feature/common/controller/category_controller.dart';
+import 'package:ecommerce/feature/common/controller/main_bottom_nav_index_controller.dart';
+import 'package:ecommerce/feature/common/model/category_model.dart';
+import 'package:ecommerce/feature/common/widgets/category_item.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

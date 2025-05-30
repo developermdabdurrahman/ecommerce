@@ -1,8 +1,10 @@
-import 'package:crafty_bay/app/app_color.dart';
-import 'package:crafty_bay/app/asset_path.dart';
-import 'package:crafty_bay/feature/common/model/category_model.dart';
-import 'package:crafty_bay/feature/product/screens/product_list_screen.dart';
+
 import 'package:flutter/material.dart';
+
+import '../../../app/app_color.dart';
+import '../../../app/asset_path.dart';
+import '../../product/screens/product_list_screen.dart';
+import '../model/category_model.dart';
 
 class CategoryItem extends StatelessWidget {
   final CategoryModel categoryModel;

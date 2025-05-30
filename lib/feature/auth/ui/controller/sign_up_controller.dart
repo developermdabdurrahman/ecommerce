@@ -1,6 +1,7 @@
-import 'package:crafty_bay/app/app_urls.dart';
-import 'package:crafty_bay/feature/auth/data/model/sign_up_model.dart';
-import 'package:crafty_bay/core/network_caller/network_caller.dart';
+
+import 'package:ecommerce/app/app_urls.dart';
+import 'package:ecommerce/core/network_caller/network_caller.dart';
+import 'package:ecommerce/feature/auth/data/model/sign_up_model.dart';
 import 'package:get/get.dart';
 
 class SignUpController extends GetxController {

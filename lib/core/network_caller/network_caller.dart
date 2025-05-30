@@ -1,5 +1,6 @@
 import 'dart:convert';
-import 'package:crafty_bay/feature/auth/ui/controller/auth_controller.dart';
+
+import 'package:ecommerce/feature/auth/ui/controller/auth_controller.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_instance/get_instance.dart';
 import 'package:http/http.dart';

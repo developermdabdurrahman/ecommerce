@@ -1,16 +1,17 @@
-import 'package:crafty_bay/feature/auth/ui/screens/otp_verification_screen.dart';
-import 'package:crafty_bay/feature/auth/ui/screens/sign_in_screen.dart';
-import 'package:crafty_bay/feature/auth/ui/screens/sign_up_screen.dart';
-import 'package:crafty_bay/feature/auth/ui/screens/splash_screen.dart';
-import 'package:crafty_bay/feature/common/screens/main_botton_nav_screen.dart';
-import 'package:crafty_bay/feature/product/screens/new_product_list_screen.dart';
-import 'package:crafty_bay/feature/product/screens/popular_product_list_screen.dart';
-import 'package:crafty_bay/feature/product/screens/product_add_review_screen.dart';
-import 'package:crafty_bay/feature/product/screens/product_details_screen.dart';
-import 'package:crafty_bay/feature/product/screens/product_list_screen.dart';
-import 'package:crafty_bay/feature/product/screens/product_review_screen.dart';
-import 'package:crafty_bay/feature/product/screens/special_product_list_screen.dart';
+import 'package:ecommerce/feature/auth/ui/screens/otp_verification_screen.dart';
+import 'package:ecommerce/feature/auth/ui/screens/sign_in_screen.dart';
+import 'package:ecommerce/feature/auth/ui/screens/sign_up_screen.dart';
+import 'package:ecommerce/feature/auth/ui/screens/splash_screen.dart';
+import 'package:ecommerce/feature/common/screens/main_botton_nav_screen.dart';
+import 'package:ecommerce/feature/product/screens/new_product_list_screen.dart';
+import 'package:ecommerce/feature/product/screens/popular_product_list_screen.dart';
+import 'package:ecommerce/feature/product/screens/product_add_review_screen.dart';
+import 'package:ecommerce/feature/product/screens/product_details_screen.dart';
+import 'package:ecommerce/feature/product/screens/product_list_screen.dart';
+import 'package:ecommerce/feature/product/screens/product_review_screen.dart';
+import 'package:ecommerce/feature/product/screens/special_product_list_screen.dart';
 import 'package:flutter/material.dart';
+
 
 class AppRoutes {
   static Route<dynamic> onGenerateRoute(RouteSettings settings) {

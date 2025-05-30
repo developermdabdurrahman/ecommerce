@@ -1,7 +1,9 @@
-import 'package:crafty_bay/app/app_urls.dart';
-import 'package:crafty_bay/feature/common/model/slider_model.dart';
-import 'package:crafty_bay/core/network_caller/network_caller.dart';
+
+import 'package:ecommerce/feature/common/model/slider_model.dart';
 import 'package:get/get.dart';
+
+import '../../../app/app_urls.dart';
+import '../../../core/network_caller/network_caller.dart';
 
 class HomeSliderController extends GetxController {
   bool _getSlidersInProgress = false;

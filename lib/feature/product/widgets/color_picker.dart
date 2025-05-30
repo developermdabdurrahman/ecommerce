@@ -1,6 +1,8 @@
-import 'package:crafty_bay/app/app_color.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import '../../../app/app_color.dart';
 
 class ColorPicker extends StatefulWidget {
   const ColorPicker({super.key, required this.colors, required this.onChange});

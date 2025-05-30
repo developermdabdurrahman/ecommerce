@@ -1,9 +1,11 @@
-import 'package:crafty_bay/core/extensions/app_localization_extension.dart';
-import 'package:crafty_bay/feature/common/controller/main_bottom_nav_index_controller.dart';
-import 'package:crafty_bay/feature/wishlist/ui/controller/wish_list_controller.dart';
-import 'package:crafty_bay/feature/wishlist/ui/widget/wish_list_widget.dart';
+
+import 'package:ecommerce/core/extensions/app_localization_extension.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import '../../../common/controller/main_bottom_nav_index_controller.dart';
+import '../controller/wish_list_controller.dart';
+import '../widget/wish_list_widget.dart';
 
 class WishListScreen extends StatefulWidget {
   const WishListScreen({super.key});

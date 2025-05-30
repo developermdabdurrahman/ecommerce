@@ -1,8 +1,10 @@
-import 'package:crafty_bay/app/app_color.dart';
-import 'package:crafty_bay/app/asset_path.dart';
-import 'package:crafty_bay/feature/product/data/product_model.dart';
-import 'package:crafty_bay/feature/product/screens/product_details_screen.dart';
+
 import 'package:flutter/material.dart';
+
+import '../../../app/app_color.dart';
+import '../../../app/asset_path.dart';
+import '../../product/data/product_model.dart';
+import '../../product/screens/product_details_screen.dart';
 
 class ProductCart extends StatelessWidget {
   final ProductModel products;

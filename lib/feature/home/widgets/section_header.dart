@@ -1,6 +1,8 @@
-import 'package:crafty_bay/app/app_color.dart';
-import 'package:crafty_bay/core/extensions/app_localization_extension.dart';
+
+import 'package:ecommerce/core/extensions/app_localization_extension.dart';
 import 'package:flutter/material.dart';
+
+import '../../../app/app_color.dart';
 
 class SectionHeader extends StatelessWidget {
   final String title;

@@ -1,9 +1,10 @@
-import 'package:crafty_bay/app/app_color.dart';
-import 'package:crafty_bay/app/asset_path.dart';
-import 'package:crafty_bay/core/widgets/show_snack_Bar.dart';
-import 'package:crafty_bay/feature/card/model/card_model.dart';
-import 'package:crafty_bay/feature/card/ui/controller/product_card_controller.dart';
-import 'package:crafty_bay/feature/product/widgets/increment_decrement_count_widget.dart';
+
+import 'package:ecommerce/app/app_color.dart';
+import 'package:ecommerce/app/asset_path.dart';
+import 'package:ecommerce/core/widgets/show_snack_Bar.dart';
+import 'package:ecommerce/feature/card/model/card_model.dart';
+import 'package:ecommerce/feature/card/ui/controller/product_card_controller.dart';
+import 'package:ecommerce/feature/product/widgets/increment_decrement_count_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

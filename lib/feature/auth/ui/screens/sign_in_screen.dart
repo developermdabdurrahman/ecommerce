@@ -1,10 +1,11 @@
-import 'package:crafty_bay/app/app_color.dart';
-import 'package:crafty_bay/feature/auth/data/model/sign_in_request_model.dart';
-import 'package:crafty_bay/feature/auth/ui/controller/sign_in_controller.dart';
-import 'package:crafty_bay/feature/auth/ui/screens/sign_up_screen.dart';
-import 'package:crafty_bay/feature/auth/ui/widgets/app_logo.dart';
-import 'package:crafty_bay/core/extensions/app_localization_extension.dart';
-import 'package:crafty_bay/core/widgets/show_snack_Bar.dart';
+
+import 'package:ecommerce/app/app_color.dart';
+import 'package:ecommerce/core/extensions/app_localization_extension.dart';
+import 'package:ecommerce/core/widgets/show_snack_Bar.dart';
+import 'package:ecommerce/feature/auth/data/model/sign_in_request_model.dart';
+import 'package:ecommerce/feature/auth/ui/controller/sign_in_controller.dart';
+import 'package:ecommerce/feature/auth/ui/screens/sign_up_screen.dart';
+import 'package:ecommerce/feature/auth/ui/widgets/app_logo.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

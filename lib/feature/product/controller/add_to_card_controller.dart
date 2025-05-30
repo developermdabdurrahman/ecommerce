@@ -1,6 +1,8 @@
-import 'package:crafty_bay/app/app_urls.dart';
-import 'package:crafty_bay/core/network_caller/network_caller.dart';
+
 import 'package:get/get.dart';
+
+import '../../../app/app_urls.dart';
+import '../../../core/network_caller/network_caller.dart';
 
 class AddToCardController extends GetxController {
   bool _inProgress = false;

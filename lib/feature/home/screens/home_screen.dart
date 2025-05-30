@@ -1,23 +1,25 @@
-import 'package:crafty_bay/app/asset_path.dart';
-import 'package:crafty_bay/core/extensions/app_localization_extension.dart';
-import 'package:crafty_bay/feature/common/controller/category_controller.dart';
-import 'package:crafty_bay/feature/common/controller/home_slider_controller.dart';
-import 'package:crafty_bay/feature/common/controller/main_bottom_nav_index_controller.dart';
-import 'package:crafty_bay/feature/common/controller/new_product_list_controller.dart';
-import 'package:crafty_bay/feature/common/controller/popular_product_list_controller.dart';
-import 'package:crafty_bay/feature/common/controller/special_product_list_controller.dart';
-import 'package:crafty_bay/feature/common/model/category_model.dart';
-import 'package:crafty_bay/feature/common/widgets/category_item.dart';
-import 'package:crafty_bay/feature/common/widgets/product_card.dart';
-import 'package:crafty_bay/feature/home/widgets/HomeCarouselSlider.dart';
-import 'package:crafty_bay/feature/home/widgets/section_header.dart';
-import 'package:crafty_bay/feature/product/data/product_model.dart';
-import 'package:crafty_bay/feature/product/screens/new_product_list_screen.dart';
-import 'package:crafty_bay/feature/product/screens/popular_product_list_screen.dart';
-import 'package:crafty_bay/feature/product/screens/special_product_list_screen.dart';
+
+import 'package:ecommerce/core/extensions/app_localization_extension.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
+
+import '../../../app/asset_path.dart';
+import '../../common/controller/category_controller.dart';
+import '../../common/controller/home_slider_controller.dart';
+import '../../common/controller/main_bottom_nav_index_controller.dart';
+import '../../common/controller/new_product_list_controller.dart';
+import '../../common/controller/popular_product_list_controller.dart';
+import '../../common/controller/special_product_list_controller.dart';
+import '../../common/model/category_model.dart';
+import '../../common/widgets/category_item.dart';
+import '../../common/widgets/product_card.dart';
+import '../../product/data/product_model.dart';
+import '../../product/screens/new_product_list_screen.dart';
+import '../../product/screens/popular_product_list_screen.dart';
+import '../../product/screens/special_product_list_screen.dart';
+import '../widgets/HomeCarouselSlider.dart';
+import '../widgets/section_header.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

@@ -1,8 +1,10 @@
-import 'package:crafty_bay/app/app_urls.dart';
-import 'package:crafty_bay/core/network_caller/network_caller.dart';
-import 'package:crafty_bay/feature/product/data/product_get_request_model.dart';
-import 'package:crafty_bay/feature/product/data/product_model.dart';
+
 import 'package:get/get.dart';
+
+import '../../../app/app_urls.dart';
+import '../../../core/network_caller/network_caller.dart';
+import '../data/product_get_request_model.dart';
+import '../data/product_model.dart';
 
 class ProductListController extends GetxController {
   final int _perPageDataCount = 30;

@@ -1,6 +1,7 @@
-import 'package:crafty_bay/app/app_color.dart';
-import 'package:crafty_bay/app/app_routes.dart';
-import 'package:crafty_bay/app/controller_binder.dart';
+
+import 'package:ecommerce/app/app_color.dart';
+import 'package:ecommerce/app/app_routes.dart';
+import 'package:ecommerce/app/controller_binder.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';

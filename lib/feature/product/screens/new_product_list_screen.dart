@@ -1,7 +1,9 @@
-import 'package:crafty_bay/feature/common/controller/new_product_list_controller.dart';
-import 'package:crafty_bay/feature/common/widgets/product_card.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import '../../common/controller/new_product_list_controller.dart';
+import '../../common/widgets/product_card.dart';
 
 class NewProductListScreen extends StatefulWidget {
   const NewProductListScreen({super.key});

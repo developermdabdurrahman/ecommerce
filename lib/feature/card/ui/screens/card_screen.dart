@@ -1,10 +1,11 @@
-import 'package:crafty_bay/app/app_color.dart';
-import 'package:crafty_bay/core/extensions/app_localization_extension.dart';
-import 'package:crafty_bay/feature/auth/ui/controller/auth_controller.dart';
-import 'package:crafty_bay/feature/card/ui/controller/product_card_controller.dart';
-import 'package:crafty_bay/feature/card/ui/controller/ssl_getway.dart';
-import 'package:crafty_bay/feature/card/ui/widget/card_widget.dart';
-import 'package:crafty_bay/feature/common/controller/main_bottom_nav_index_controller.dart';
+
+import 'package:ecommerce/app/app_color.dart';
+import 'package:ecommerce/core/extensions/app_localization_extension.dart';
+import 'package:ecommerce/feature/auth/ui/controller/auth_controller.dart';
+import 'package:ecommerce/feature/card/ui/controller/product_card_controller.dart';
+import 'package:ecommerce/feature/card/ui/controller/ssl_getway.dart';
+import 'package:ecommerce/feature/card/ui/widget/card_widget.dart';
+import 'package:ecommerce/feature/common/controller/main_bottom_nav_index_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
