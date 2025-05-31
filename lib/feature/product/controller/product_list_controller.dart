@@ -1,10 +1,8 @@
-
+import 'package:ecommerce/app/app_urls.dart';
+import 'package:ecommerce/core/network_caller/network_caller.dart';
+import 'package:ecommerce/feature/product/data/product_get_request_model.dart';
+import 'package:ecommerce/feature/product/data/product_model.dart';
 import 'package:get/get.dart';
-
-import '../../../app/app_urls.dart';
-import '../../../core/network_caller/network_caller.dart';
-import '../data/product_get_request_model.dart';
-import '../data/product_model.dart';
 
 class ProductListController extends GetxController {
   final int _perPageDataCount = 30;

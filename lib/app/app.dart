@@ -1,4 +1,3 @@
-
 import 'package:ecommerce/app/app_color.dart';
 import 'package:ecommerce/app/app_routes.dart';
 import 'package:ecommerce/app/controller_binder.dart';

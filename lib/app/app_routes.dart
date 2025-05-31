@@ -12,7 +12,6 @@ import 'package:ecommerce/feature/product/screens/product_review_screen.dart';
 import 'package:ecommerce/feature/product/screens/special_product_list_screen.dart';
 import 'package:flutter/material.dart';
 
-
 class AppRoutes {
   static Route<dynamic> onGenerateRoute(RouteSettings settings) {
     debugPrint('Routes>>>>${settings.name}');

@@ -1,10 +1,8 @@
 import 'package:carousel_slider/carousel_slider.dart';
-
+import 'package:ecommerce/app/app_color.dart';
+import 'package:ecommerce/feature/product/data/product_model.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
-import '../../../app/app_color.dart';
-import '../data/product_model.dart';
 
 class ProductViewCarouselSlider extends StatefulWidget {
   final ProductModel? productModel;

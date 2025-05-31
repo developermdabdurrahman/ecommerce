@@ -1,7 +1,5 @@
-
+import 'package:ecommerce/feature/auth/ui/controller/auth_controller.dart';
 import 'package:get/get.dart';
-
-import '../../auth/ui/controller/auth_controller.dart';
 
 class MainBottomNavIndexController extends GetxController {
   int _index = 0;

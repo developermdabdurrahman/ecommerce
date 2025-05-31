@@ -1,8 +1,6 @@
-
+import 'package:ecommerce/app/app_color.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
-import '../../../app/app_color.dart';
 
 // ignore: must_be_immutable
 class IncrementDecrementCountWidget extends StatefulWidget {

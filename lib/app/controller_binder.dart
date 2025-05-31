@@ -1,5 +1,3 @@
-
-import 'package:ecommerce/core/network_caller/network_caller.dart';
 import 'package:ecommerce/feature/auth/ui/controller/auth_controller.dart';
 import 'package:ecommerce/feature/auth/ui/controller/otp_veriffication_controller.dart';
 import 'package:ecommerce/feature/auth/ui/controller/sign_in_controller.dart';
@@ -8,6 +6,7 @@ import 'package:ecommerce/feature/card/ui/controller/product_card_controller.dar
 import 'package:ecommerce/feature/common/controller/category_controller.dart';
 import 'package:ecommerce/feature/common/controller/home_slider_controller.dart';
 import 'package:ecommerce/feature/common/controller/main_bottom_nav_index_controller.dart';
+import 'package:ecommerce/core/network_caller/network_caller.dart';
 import 'package:ecommerce/feature/common/controller/new_product_list_controller.dart';
 import 'package:ecommerce/feature/common/controller/popular_product_list_controller.dart';
 import 'package:ecommerce/feature/common/controller/special_product_list_controller.dart';

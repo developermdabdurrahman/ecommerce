@@ -1,11 +1,9 @@
-
+import 'package:ecommerce/app/app_color.dart';
+      import 'package:ecommerce/feature/product/controller/review_list_controller.dart';
       import 'package:ecommerce/feature/product/screens/product_add_review_screen.dart';
-import 'package:flutter/material.dart';
+      import 'package:ecommerce/feature/product/widgets/review_item.dart';
+      import 'package:flutter/material.dart';
       import 'package:get/get.dart';
-
-import '../../../app/app_color.dart';
-import '../controller/review_list_controller.dart';
-import '../widgets/review_item.dart';
 
       class ProductReviewScreen extends StatefulWidget {
         const ProductReviewScreen({super.key, required this.productId});

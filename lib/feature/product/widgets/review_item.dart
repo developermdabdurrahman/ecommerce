@@ -1,7 +1,5 @@
-
+import 'package:ecommerce/feature/product/data/review_model.dart';
 import 'package:flutter/material.dart';
-
-import '../data/review_model.dart';
 
 class ReviewItem extends StatelessWidget {
   const ReviewItem({super.key, required this.review});

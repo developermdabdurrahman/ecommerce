@@ -1,9 +1,7 @@
-
+import 'package:ecommerce/app/app_urls.dart';
+import 'package:ecommerce/core/network_caller/network_caller.dart';
+import 'package:ecommerce/feature/product/data/review_model.dart';
 import 'package:get/get.dart';
-
-import '../../../app/app_urls.dart';
-import '../../../core/network_caller/network_caller.dart';
-import '../data/review_model.dart';
 
 class ReviewListController extends GetxController {
   final int _perPageDataCount = 30;

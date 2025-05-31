@@ -1,10 +1,8 @@
-
+import 'package:ecommerce/app/app_color.dart';
+import 'package:ecommerce/app/asset_path.dart';
+import 'package:ecommerce/feature/product/screens/product_details_screen.dart';
+import 'package:ecommerce/feature/wishlist/model/wish_list_model.dart';
 import 'package:flutter/material.dart';
-
-import '../../../../app/app_color.dart';
-import '../../../../app/asset_path.dart';
-import '../../../product/screens/product_details_screen.dart';
-import '../../model/wish_list_model.dart';
 
 class WishListWidget extends StatelessWidget {
   final WishListProductModel? products;

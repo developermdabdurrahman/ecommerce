@@ -1,10 +1,8 @@
-
+import 'package:ecommerce/feature/common/widgets/product_card.dart';
+import 'package:ecommerce/feature/product/controller/product_list_controller.dart';
+import 'package:ecommerce/feature/product/data/product_get_request_model.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
-import '../../common/widgets/product_card.dart';
-import '../controller/product_list_controller.dart';
-import '../data/product_get_request_model.dart';
 
 class ProductListScreen extends StatefulWidget {
   const ProductListScreen({super.key, required this.category});

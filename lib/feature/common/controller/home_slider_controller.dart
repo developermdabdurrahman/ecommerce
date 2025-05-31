@@ -1,9 +1,7 @@
-
+import 'package:ecommerce/app/app_urls.dart';
 import 'package:ecommerce/feature/common/model/slider_model.dart';
+import 'package:ecommerce/core/network_caller/network_caller.dart';
 import 'package:get/get.dart';
-
-import '../../../app/app_urls.dart';
-import '../../../core/network_caller/network_caller.dart';
 
 class HomeSliderController extends GetxController {
   bool _getSlidersInProgress = false;

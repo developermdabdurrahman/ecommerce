@@ -1,10 +1,9 @@
-
 import 'package:ecommerce/app/app_color.dart';
 import 'package:ecommerce/app/app_config.dart';
-import 'package:ecommerce/core/extensions/app_localization_extension.dart';
 import 'package:ecommerce/feature/auth/ui/controller/auth_controller.dart';
 import 'package:ecommerce/feature/auth/ui/widgets/app_logo.dart';
 import 'package:ecommerce/feature/common/screens/main_botton_nav_screen.dart';
+import 'package:ecommerce/core/extensions/app_localization_extension.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

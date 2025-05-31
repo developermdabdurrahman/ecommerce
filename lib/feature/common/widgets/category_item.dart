@@ -1,10 +1,8 @@
-
+import 'package:ecommerce/app/app_color.dart';
+import 'package:ecommerce/app/asset_path.dart';
+import 'package:ecommerce/feature/common/model/category_model.dart';
+import 'package:ecommerce/feature/product/screens/product_list_screen.dart';
 import 'package:flutter/material.dart';
-
-import '../../../app/app_color.dart';
-import '../../../app/asset_path.dart';
-import '../../product/screens/product_list_screen.dart';
-import '../model/category_model.dart';
 
 class CategoryItem extends StatelessWidget {
   final CategoryModel categoryModel;

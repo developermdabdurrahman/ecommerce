@@ -1,21 +1,19 @@
-
+import 'package:ecommerce/app/app_color.dart';
 import 'package:ecommerce/core/extensions/app_localization_extension.dart';
+import 'package:ecommerce/core/widgets/show_snack_Bar.dart';
+import 'package:ecommerce/feature/auth/ui/controller/auth_controller.dart';
+import 'package:ecommerce/feature/auth/ui/screens/sign_in_screen.dart';
+import 'package:ecommerce/feature/common/controller/add_to_wish_controller.dart';
+import 'package:ecommerce/feature/product/controller/add_to_card_controller.dart';
+import 'package:ecommerce/feature/product/controller/product_details_controller.dart';
+import 'package:ecommerce/feature/product/data/product_model.dart';
 import 'package:ecommerce/feature/product/screens/product_review_screen.dart';
+import 'package:ecommerce/feature/product/widgets/color_picker.dart';
+import 'package:ecommerce/feature/product/widgets/increment_decrement_count_widget.dart';
+import 'package:ecommerce/feature/product/widgets/product_view_carousel_slider.dart';
+import 'package:ecommerce/feature/product/widgets/size_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
-import '../../../app/app_color.dart';
-import '../../../core/widgets/show_snack_Bar.dart';
-import '../../auth/ui/controller/auth_controller.dart';
-import '../../auth/ui/screens/sign_in_screen.dart';
-import '../../common/controller/add_to_wish_controller.dart';
-import '../controller/add_to_card_controller.dart';
-import '../controller/product_details_controller.dart';
-import '../data/product_model.dart';
-import '../widgets/color_picker.dart';
-import '../widgets/increment_decrement_count_widget.dart';
-import '../widgets/product_view_carousel_slider.dart';
-import '../widgets/size_picker.dart';
 
 class ProductDetailsScreen extends StatefulWidget {
   final String id;

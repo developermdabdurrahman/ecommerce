@@ -1,10 +1,8 @@
 import 'package:carousel_slider/carousel_slider.dart';
-
+import 'package:ecommerce/app/app_color.dart';
+import 'package:ecommerce/feature/common/controller/home_slider_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
-import '../../../app/app_color.dart';
-import '../../common/controller/home_slider_controller.dart';
 
 class HomeCarouselSlider extends StatefulWidget {
   const HomeCarouselSlider({super.key});

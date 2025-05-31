@@ -1,9 +1,8 @@
-
 import 'package:ecommerce/app/app_urls.dart';
-import 'package:ecommerce/core/network_caller/network_caller.dart';
+import 'package:ecommerce/feature/auth/ui/controller/auth_controller.dart';
 import 'package:ecommerce/feature/auth/data/model/sign_in_request_model.dart';
 import 'package:ecommerce/feature/auth/data/model/user_model.dart';
-import 'package:ecommerce/feature/auth/ui/controller/auth_controller.dart';
+import 'package:ecommerce/core/network_caller/network_caller.dart';
 import 'package:get/get.dart';
 
 class SignInController extends GetxController {
